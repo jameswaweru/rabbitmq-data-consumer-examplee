@@ -1,4 +1,4 @@
-package com.mikehenry.rabbitmqdataconsumer.configuration;
+package com.jameswaweru.rabbitmqdataconsumer.configuration;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,6 +1,6 @@
-package com.mikehenry.rabbitmqdataconsumer.configuration;
+package com.jameswaweru.rabbitmqdataconsumer.configuration;
 
-import com.mikehenry.rabbitmqdataconsumer.consumer.DataConsumer;
+import com.jameswaweru.rabbitmqdataconsumer.consumer.DataConsumer;
 import lombok.AllArgsConstructor;
 import org.springframework.amqp.core.AcknowledgeMode;
 import org.springframework.amqp.rabbit.connection.CachingConnectionFactory;

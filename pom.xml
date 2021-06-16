@@ -8,7 +8,7 @@
 		<version>2.3.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.mikehenry</groupId>
+	<groupId>com.jameswaweru</groupId>
 	<artifactId>rabbitmq-data-consumer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>rabbitmq-data-consumer</name>

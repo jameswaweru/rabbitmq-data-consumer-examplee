@@ -1,4 +1,4 @@
-package com.mikehenry.rabbitmqdataconsumer.dto;
+package com.jameswaweru.rabbitmqdataconsumer.dto;
 
 import lombok.Builder;
 import lombok.Getter;

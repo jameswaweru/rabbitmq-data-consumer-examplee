@@ -1,4 +1,4 @@
-package com.mikehenry.rabbitmqdataconsumer;
+package com.jameswaweru.rabbitmqdataconsumer;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

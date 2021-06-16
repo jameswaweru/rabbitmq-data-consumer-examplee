@@ -1,6 +1,5 @@
-package com.mikehenry.rabbitmqdataconsumer.processor;
+package com.jameswaweru.rabbitmqdataconsumer.processor;
 
-import lombok.AllArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.*;
@@ -38,6 +37,16 @@ public class RequestProcessor {
 
             logger.info("Response: " + responseEntity.getBody() + " | " +
                     "HTTP Status: " + responseEntity.getStatusCode());
+
+            if(responseEntity.getStatusCode().equals(HttpStatus.OK)){
+                logger.info("Successfully done ......");
+            }
+
+            if(!responseEntity.getStatusCode().equals(HttpStatus.OK)){
+                logger.info("Has failed ......");
+            }
+
+
 
             return responseEntity.getBody();
         } catch (HttpStatusCodeException e) {

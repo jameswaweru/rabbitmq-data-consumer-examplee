@@ -1,10 +1,10 @@
-package com.mikehenry.rabbitmqdataconsumer.consumer;
+package com.jameswaweru.rabbitmqdataconsumer.consumer;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.mikehenry.rabbitmqdataconsumer.configuration.ApplicationConfiguration;
-import com.mikehenry.rabbitmqdataconsumer.dto.DataRequest;
-import com.mikehenry.rabbitmqdataconsumer.processor.RequestProcessor;
+import com.jameswaweru.rabbitmqdataconsumer.configuration.ApplicationConfiguration;
+import com.jameswaweru.rabbitmqdataconsumer.dto.DataRequest;
+import com.jameswaweru.rabbitmqdataconsumer.processor.RequestProcessor;
 import com.rabbitmq.client.Channel;
 import lombok.AllArgsConstructor;
 import org.slf4j.Logger;
